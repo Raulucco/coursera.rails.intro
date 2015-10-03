@@ -38,6 +38,4 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-  ENV["FOOD2FORK_KEY"] = '8396b87a285d469847f26e386b0cc4df'
-  ENV["FOOD2FORK_SERVER_AND_PORT"] = 'food2fork.com'
 end

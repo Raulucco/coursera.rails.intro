@@ -22,9 +22,5 @@ module Recipefinder
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-
-
-    ENV["FOOD2FORK_KEY"] = '8396b87a285d469847f26e386b0cc4df'
-    ENV["FOOD2FORK_SERVER_AND_PORT"] = 'food2fork.com'
   end
 end
